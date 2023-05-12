@@ -1,0 +1,26 @@
+.page_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.detailcard_container {
+  background-color:darksalmon;
+  width: 40%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* overflow-y: scroll; */
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: cadetblue;
+  margin-bottom: 2rem;
+}

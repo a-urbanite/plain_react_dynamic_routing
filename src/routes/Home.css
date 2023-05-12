@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.list_container {
+  background-color:darksalmon;
+  width: 80%;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.card_container {
+  height: 2rem;
+  width: 15rem;
+  background-color: cadetblue;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-block: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.card_container:hover {
+  background-color: grey;
+}
+
+.card_title {
+  color: white;
+  /* text-decoration: unset !important; */
+}
+
+.main_title {
+  display: flex;
+  justify-content: center;
+  color: cadetblue;
+}
